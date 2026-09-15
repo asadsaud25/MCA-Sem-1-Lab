@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int n, arr[100];
+	cout << "Enter the no. of elements: ";
+	cin >> n;
+	cout << "Insert the elements: " << endl;
+	for (int i=0; i<n; i++) {
+		cin >> arr[i];	
+	}
+	cout << "Elements you inserted in the array: ";
+	for (int i=0; i<n; i++) {
+		cout << arr[i] << " ";
+	}
+	return 0;
+}
