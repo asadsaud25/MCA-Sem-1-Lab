@@ -2,14 +2,13 @@
 using namespace std;
 
 int main() {
-    int n, num, target, frequency = 0;
-
+    int n, target, frequency = 0;
     cout << "Enter the number of elements: ";
     cin >> n;
-
+	int num[n];
     cout << "Enter the integers: ";
     for (int i = 0; i < n; i++) {
-        cin >> num;
+        cin >> num[i];
     }
 
     cout << "Enter the number to find: ";
@@ -17,7 +16,7 @@ int main() {
     
     cout << "Enter the integers: ";
     for (int i = 0; i < n; i++) {
-        if (num == target) {
+        if (num[i] == target) {
             frequency++;
         }
     }

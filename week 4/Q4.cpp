@@ -12,8 +12,7 @@ int main() {
 		a = b;
 		b = temp;
 		
-	}
-	
+	}	
 	return 0;
-	
 }
+
